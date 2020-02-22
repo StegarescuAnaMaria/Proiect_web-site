@@ -1,0 +1,41 @@
+
+h1.c10{
+position: relative;                        /* padding/top/left/right/etc*/
+margin-top: 266px;
+text-align: center;
+/*font-family: */
+
+}
+
+div.c2{
+text-indent: 30px;
+
+}
+
+.c3{
+ text-align:right;
+ }
+
+main{
+display: block;
+background-color: #D8DAE0;
+/*margin-top: 0px;*/
+/*padding: 0px 2em;*/
+border: 1px solid black;
+/*margin-top: 17em;*/
+/*
+margin-left:1em;
+margin-right:1em;*/
+}
+
+audio{
+	width:80%;
+	max-width:300px;
+}
+
+video, iframe{
+	
+	max-width:560px;
+	width:80vw;
+	height:
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel = "stylesheet" type = "text/css" href = "/css/form_login.css" />
+</head>
+<body>
+<form method="post" action="/createaccount">
+<label>Username: <input type="text" name="username"></label><br/>
+<% if(locals.message) {%>
+<p id="taken">The username is taken.</p>
+<%}%>
+<label>E-mail: <input type="e-mail" name="email"></label><br/>
+<% if(locals.email) {%>
+<p id="taken">The e-mail you-re trying to use is already tied to an account.</p>
+<%}%>
+<label>Password: <input type="password" name="pass"></label><br/>
+<% if(locals.pass) {%>
+<p id="taken">The password is too short.</p>
+<%}%>
+<label>Type the password again: <input type="password" name="pass2"></label><br/>
+<% if(locals.match) {%>
+<p id="taken">The passwords don't match with each other.</p>
+<%}%>
+<label>Gender:<input type="radio" name="gender" value="F">Female <br/>
+<input type="radio" name="gender" value="M">Male</label><br/>
+
+<input type="submit" value="Create Account"><br/> 
+<% if(locals.created) {%>
+<p>Account successfully created, please sign in <a href="/login">here</a>.</p>
+<%}%>
+</form>
+
+</body>
+</html>

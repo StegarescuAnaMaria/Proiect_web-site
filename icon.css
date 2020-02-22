@@ -1,0 +1,12 @@
+#log{
+	position: absolute;
+	background-color:#505C6D
+	width: 3em;
+	height: 2em;
+	opacity: 0.5;
+	box-sizing: content-box;
+	/*border: 1px solid gray;*/
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+}

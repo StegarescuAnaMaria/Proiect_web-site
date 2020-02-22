@@ -1,0 +1,122 @@
+
+h1{
+	margin-top:266px;
+	text-align:center;
+}
+
+@media screen and (max-width: 680px) {
+  .column {
+    /*flex: 100%;*/
+    /*max-width: 100%;*/
+	flex-shrink: 4;
+  flex-grow: 1;
+  align-items:stretch;
+justify-content:space-evenly;
+  }
+ .responsive{
+	  width:50%;
+	  vertical-align: middle;
+	  font-size:70%;
+	  background-size:50%;
+  }
+}
+.responsive{
+	width:100%;
+}
+
+@keyframes loading1
+{
+	0%{
+		left: 10px;		
+	}
+	100%{
+		transform:translateX(400px);
+	}
+	
+	
+}
+ 
+ .loading{
+	 display:inline-block;
+	 position:relative;
+	 left: 10px;
+	 /*left: auto;*/
+	 /*transform:translateX(200px);*/
+	 /*transition:transform 2s linear 0s infinite;*/
+	 animation-name: loading1;
+	 animation-duration: 3s;
+	 animation-timing-function: linear;
+	 animation-delay: 0s;
+	 animation-direction: alternate;
+	 animation-play-state: running;
+	 animation-fill-mode: forwards;
+	 animation-iteration-count: 20;
+ }
+
+
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    /*flex: 50%;*/
+    /*max-width: 50%;*/
+	flex-shrink: 4;
+  flex-grow: 1;
+  align-items:stretch;
+justify-content:space-evenly;
+  }
+  main{
+	  
+	  
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 0px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 0px;
+  flex-shrink: 4;
+  flex-grow: 1;
+  align-items:;
+justify-content:space-evenly;
+}
+
+
+.column img {
+  /*margin-top: 8px;*/
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+h2{
+	margin-top:2em;
+}
+
+@font-face {
+  font-family: "jaapokki_reg";
+  src: url("/fonts/Jaapokki-Regular.otf");
+}
+
+
+main{
+display: block;
+background-color: #D8DAE0;
+/*margin-top: 0px;*/
+/*padding: 0px 2em;*/
+border: 1px solid black;
+margin-left:0em;
+margin-right:0em;
+/*position: absolute;*/
+}
+
+*{
+	font-family:jaapokki_reg;
+	text-align:center;
+}

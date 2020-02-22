@@ -1,0 +1,22 @@
+<div id="log">
+
+
+<% if(locals.username) {%>
+<p>  <%=username %></p> <br>
+<form method="post" action="/logout"> <input type="submit" value="Log out"> </form>
+<%}
+  else
+  {
+  %>  
+  
+  <form method="post" action="/log_in">
+  <input type="submit" value="Log in"> </form>   
+  
+  <form method="post" action="/sign_up"><input type="submit" value="Sign up"> 
+  </form>
+  <%}
+  %>
+  
+ 
+
+</div>

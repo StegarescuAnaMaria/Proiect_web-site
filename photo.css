@@ -1,0 +1,26 @@
+body{
+background-image: url("/imagini/1 (3).jpg"), url("/imagini/2 (2).jpg"), url("/imagini/3 (2).jpg"), url("/imagini/5 (3).jpg");
+background-repeat: no-repeat;
+background-position: 0px 0px, 452px 0px, 852px 0px, 1252px 0px;
+background-color: #505C6D;
+position: relative;
+/*margin:0;
+padding:0;*/
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+/*outline:1px solid black;*/
+}
+
+section{
+margin:0;
+padding:0;
+}
+
+main{
+width:100%;
+}
+
