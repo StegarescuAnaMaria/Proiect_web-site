@@ -1,5 +1,5 @@
 # Proiect_web-site
-web-site_fanpage-for-Starset
+web-site_fanpage-for-Starset 
 This project follows the building of a fan page for "Starset" (an Ohio rock-band). I used HTML5, then I used CSS3 in order to edit the appearance of the pages. The connection with the local server has been realised with the help of Node.js, and I parsed my HTML files to EJS templates for the login/logout pages. I also used JavaScript for the Image Gallery page, and built an app that would let the user filter through the images (if the user wants colored, or only black and white images to be displayed, or if the user is looking for images equal-to or larger than a specific height or width etc).
 Here are some png files of what the finished product looks like, as I didn't include all of the image/audio files:
 
